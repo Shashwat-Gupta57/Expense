@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download - Expenses</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="icon.png">
 </head>
 <body>
 
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="navbar-brand">Expenses</div>
+        <div class="navbar-brand">
+            <img src="icon.png" alt="Expenses Logo" style="height: 32px; vertical-align: middle; margin-right: 8px;">
+            Expenses
+        </div>
         <div class="navbar-links">
             <a href="index.html">Home</a>
             <a href="download.html" class="active">Download</a>
@@ -21,6 +25,7 @@
     <!-- Content -->
     <section class="section container">
         <div class="download-card card">
+            <img src="icon.png" alt="Expenses App Icon" style="width: 96px; height: 96px; margin-bottom: 24px; border-radius: 20px;">
             <h1>Download Expenses</h1>
             <p>Get the best group expense manager for your Android device.</p>
             
@@ -34,7 +39,7 @@
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 16px; align-items: center;">
-                <a href="#" class="btn btn-primary btn-lg" onclick="alert('Download link coming soon!')">
+                <a href="Expenses.apk" class="btn btn-primary btn-lg" download>
                     Download APK
                 </a>
                 <a href="#" class="btn btn-outline btn-lg" onclick="alert('Indus App Store link coming soon!')">
